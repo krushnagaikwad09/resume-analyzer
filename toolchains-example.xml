@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Example Maven Toolchains file for this project.
+  Copy this file to your Maven user config location and name it: ~/.m2/toolchains.xml
+  Then update the <jdkHome> path to point to a JDK 17 installation on your machine.
+
+  The maven configuration requests JDK 17. If you don't have JDK 17 installed,
+  install Temurin/Adoptium or another JDK 17 distribution and update the path below.
+-->
+<toolchains xmlns="http://maven.apache.org/TOOLCHAINS/1.1.0"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://maven.apache.org/TOOLCHAINS/1.1.0
+                                https://maven.apache.org/xsd/toolchains-1.1.0.xsd">
+  <toolchains>
+    <!-- Recommended: JDK 17 entry (update jdkHome to your JDK 17 path) -->
+    <!--
+    <jdk>
+      <version>17</version>
+      <vendor>any</vendor>
+      <configuration>
+        <jdkHome>C:\\Program Files\\Java\\jdk-17</jdkHome>
+      </configuration>
+    </jdk>
+    -->
+
+    <!-- Detected JDKs on this machine (for reference) -->
+    <jdk>
+      <version>23</version>
+      <vendor>any</vendor>
+      <configuration>
+        <jdkHome>C:\\Program Files\\Java\\jdk-23</jdkHome>
+      </configuration>
+    </jdk>
+
+  </toolchains>
+</toolchains>
